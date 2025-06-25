@@ -1,5 +1,6 @@
 from pathlib import Path
 from PIL import Image
+import os
 os.environ['YOLO_VERBOSE'] = 'False'
 os.environ['YOLO_AUTOINSTALL'] = 'False'
 warnings.filterwarnings('ignore')
