@@ -1,5 +1,8 @@
 from pathlib import Path
 from PIL import Image
+os.environ['YOLO_VERBOSE'] = 'False'
+os.environ['YOLO_AUTOINSTALL'] = 'False'
+warnings.filterwarnings('ignore')
 import streamlit as st
 import ultralytics
 import settings
