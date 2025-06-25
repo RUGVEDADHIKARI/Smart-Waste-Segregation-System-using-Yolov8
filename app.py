@@ -3,7 +3,6 @@ from PIL import Image
 import os
 os.environ['YOLO_VERBOSE'] = 'False'
 os.environ['YOLO_AUTOINSTALL'] = 'False'
-warnings.filterwarnings('ignore')
 import streamlit as st
 import ultralytics
 import settings
