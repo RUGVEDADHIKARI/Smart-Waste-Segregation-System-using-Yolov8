@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-MODEL_PATH = r"D:\Smart Waste Segregation System Using Computer Vision\YOLO model\100 epochs model\sewage_yolo_model\weights\best.pt"
+MODEL_PATH = r"/workspaces/Smart-Waste-Segregation-System-using-Yolov8/best.pt"
 
 
 WEBCAM_PATH = 0
