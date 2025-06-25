@@ -54,7 +54,6 @@ streamlit run app.py
 
 ```
 Smart-Waste-Segregation-System-using-Yolov8/
-├── data/              # Dataset and annotations
 ├── best.pt            # YOLOv8 models/weights
 ├── app.py             # main file
 ├── helper.py          # processing file
