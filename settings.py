@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-MODEL_PATH = r"/workspaces/Smart-Waste-Segregation-System-using-Yolov8/best.pt"
+MODEL_PATH = r"Smart-Waste-Segregation-System-using-Yolov8/best.pt"
 
 
 WEBCAM_PATH = 0
