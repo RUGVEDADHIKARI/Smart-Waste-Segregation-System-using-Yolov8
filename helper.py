@@ -3,7 +3,6 @@ import tempfile
 import os
 os.environ['YOLO_VERBOSE'] = 'False'
 os.environ['YOLO_AUTOINSTALL'] = 'False'
-warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 import streamlit as st
 import cv2
