@@ -1,12 +1,15 @@
+import settings
+import tempfile
+import os
+os.environ['YOLO_VERBOSE'] = 'False'
+os.environ['YOLO_AUTOINSTALL'] = 'False'
+warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 import streamlit as st
 import cv2
 import numpy as np
 import PIL
 from PIL import Image
-import settings
-import tempfile
-import os
 
 @st.cache_resource
 def load_model(model_path):
